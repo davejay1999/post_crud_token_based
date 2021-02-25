@@ -1,20 +1,22 @@
 # post_crud_token_based
+
+**HERE I am Using generic class-based views and urls.
+WE can also use VIEWSETS AND ROUTERS too.**
+
+
+
 Video of how it going to work is attached:-
 Video link :- https://drive.google.com/file/d/17Szt7IJtNH1dBf-LQnTr4psZyq2dc_YO/view?usp=sharing
 
-
-
-command I used in video:- 
+command I used in video:-
 users created are jaydave and davej
 
 Generated token 89043157435ffbb2c00e993cdb40e81871baa37d for user jaydave
 Generated token 439fa6b635c2fce786067f075abddfe2b04f31d8 for user davej
 
-
-
+let say 
 jaydave posts ids = [33]
 davej posts ids = [34]
-
 
 
 http POST http://localhost:8000/posts/post/ "Authorization: Token 89043157435ffbb2c00e993cdb40e81871baa37d" description="jaydave descrip"
