@@ -3,6 +3,8 @@ Video of how it going to work is attached:-
 Video link :- https://drive.google.com/file/d/17Szt7IJtNH1dBf-LQnTr4psZyq2dc_YO/view?usp=sharing
 
 
+
+command I used in video:- 
 users created are jaydave and davej
 
 Generated token 89043157435ffbb2c00e993cdb40e81871baa37d for user jaydave
@@ -29,3 +31,5 @@ http PUT http://localhost:8000/posts/post/34/ "Authorization: Token 439fa6b635c2
 http DELETE http://localhost:8000/posts/post/33/ "Authorization: Token 89043157435ffbb2c00e993cdb40e81871baa37d"
 
 http DELETE http://localhost:8000/posts/post/34/ "Authorization: Token 439fa6b635c2fce786067f075abddfe2b04f31d8"
+
+
